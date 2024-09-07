@@ -27,3 +27,8 @@ body {
   transition: 0.5s;
   border: 2px solid #ff4500;
 }
+
+.navigation.active {
+  width: 200px;
+  height: 200px;
+}
