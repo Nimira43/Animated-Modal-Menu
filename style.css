@@ -31,4 +31,13 @@ body {
 .navigation.active {
   width: 200px;
   height: 200px;
+  border: 4px solid #ff4500;
+}
+
+.navigation span {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #ff4500;
+  border-radius: 50%;
 }
