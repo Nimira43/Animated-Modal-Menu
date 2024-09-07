@@ -4,12 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navigation {
   position: relative;
   width: 70px;
   height: 70px;
-  background-color: teal;
+  background-color: #008080;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.5s;
+  border: 2px solid #ff4500;
 }
