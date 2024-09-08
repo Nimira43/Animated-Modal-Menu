@@ -26,6 +26,9 @@ body {
   cursor: pointer;
   transition: 0.5s;
   border: 2px solid #ff4500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation.active {
@@ -40,4 +43,8 @@ body {
   height: 7px;
   background: #ff4500;
   border-radius: 50%;
+  transform: translate(
+    calc(14px * var(--x)),
+    calc(14px * var(--y))
+  );
 }
