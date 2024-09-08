@@ -61,3 +61,19 @@ body {
   width: 45px;
   height: 45px;
 }
+
+.navigation span i {
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #87ceeb;
+}
+
+.navigation.active span i {
+  visibility: visible;
+  opacity: 1;
+}
