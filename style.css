@@ -48,6 +48,7 @@ body {
     calc(14px * var(--y))
   );
   transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
 }
 
 .navigation.active span {
