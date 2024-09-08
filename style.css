@@ -47,4 +47,14 @@ body {
     calc(14px * var(--x)),
     calc(14px * var(--y))
   );
+  transition: 0.5s;
+}
+
+.navigation.active span {
+  transform: translate(
+    calc(60px * var(--x)),
+    calc(60px * var(--y))
+  );
+  width: 45px;
+  height: 45px;
 }
